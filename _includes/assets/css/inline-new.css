@@ -85,6 +85,15 @@ header > em {
     margin-top: 0;
 }
 
+.content nav {
+    border-top: 1px solid var(--light-grey);
+}
+
+.content nav a {
+    float: right;
+    margin-right: 1em;
+}
+
 /* Sidebar */
 
 .sidebar {
