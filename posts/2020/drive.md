@@ -9,6 +9,6 @@ tags:
   - life
   - management
 ---
-<todo - Walmart & Amazon affiliate links>
+<todo>
 
 [Pick up a copy](https://www.amazon.com/Drive-Surprising-Truth-About-Motivates-ebook/dp/B004P1JDJO)

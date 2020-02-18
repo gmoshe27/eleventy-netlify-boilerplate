@@ -1,8 +1,8 @@
 :root {
     --light-grey: #BBC7CC;
-    --grey: #efefef;
-	--white: white;
-   --skyblue: #3b6aa7;
+    --dark-grey: #9f9f9f;
+    --white: white;
+    --skyblue: #3b6aa7;
 }
 
 *, *:before, *:after {
@@ -123,13 +123,13 @@ header > em {
     padding: 0;
     margin: 0;
     font-size: 0.8em;
-    color: var(--light-grey);
+    color: var(--dark-grey);
 }
 
 .sidebar footer p a[href] {
     font-style: oblique;
     font-weight: 3000;
-    color: #cccccc;
+    color: var(--dark-grey);
 }
 
 .sidebar footer p {

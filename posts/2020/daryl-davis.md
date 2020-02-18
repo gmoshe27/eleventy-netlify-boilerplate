@@ -10,4 +10,4 @@ tags:
 ---
 We hate what we fear, and we fear what we don't understand. Without a good platform for civil discourse, we risk further separation and misunderstanding.
 
-[listen](http://podcasts.joerogan.net/podcasts/daryl-davis)
+🎧 [listen](http://podcasts.joerogan.net/podcasts/daryl-davis)

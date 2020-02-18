@@ -10,4 +10,4 @@ tags:
 ---
 <todo>
 
-[listen](https://www.knowledgeformen.com/podcast-mo-gawdat/)
+🎧 [listen](https://www.knowledgeformen.com/podcast-mo-gawdat/)
