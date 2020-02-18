@@ -8,6 +8,6 @@ tags:
   - podcast
   - life
 ---
-<todo>
+Review coming...
 
 🎧 [listen](https://www.knowledgeformen.com/podcast-mo-gawdat/)

@@ -9,6 +9,6 @@ tags:
   - life
   - management
 ---
-<todo>
+Review coming...
 
-[Pick up a copy](https://www.amazon.com/Drive-Surprising-Truth-About-Motivates-ebook/dp/B004P1JDJO)
+📕 [Pick up a copy](https://www.amazon.com/Drive-Surprising-Truth-About-Motivates-ebook/dp/B004P1JDJO)
