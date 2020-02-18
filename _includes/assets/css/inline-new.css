@@ -9,6 +9,7 @@
   box-sizing: border-box;
 }
 
+html,
 body {
     padding: 0;
     margin: 0;
@@ -43,15 +44,61 @@ footer {
     float: right;
 }
 
+.centered {
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+    max-width: 1000px;
+}
+
+p,
+pre,
+code {
+	line-height: 1.5;
+}
+
+main :first-child,
+main > aside :first-child,
+main > article :first-child {
+	margin-top: 0;
+}
+
+/* header */
+header {
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+    max-width: 1000px;
+}
+
+header > em {
+	display: block;
+	font-size: 2em;
+	margin: .67em 0;
+	font-weight: bold;
+	font-style: normal;
+}
+
+/* Content */
+
+.content {
+    margin-top: 0;
+}
+
 /* Sidebar */
 
 .sidebar {
     padding-left: 1em;
 }
 
+.sidebar h3 {
+    margin-bottom: 0;
+}
+
 .sidebar ul {
     padding: 0;
     list-style: none;
+    margitn-top: 0;
 }
 
 .sidebar li a[data-current="current item"] {
