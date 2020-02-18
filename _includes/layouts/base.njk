@@ -9,14 +9,19 @@
 			<em>
 				<a href="{{ '/' | url }}">{{ metadata.title }}</a>
 			</em>
-			{% include "components/nav.njk" %}
 		</header>
 
-		<main>
-			{{ layoutContent | safe }}
-		</main>
+		{# {% include "components/nav.njk" %} #}
 
-		{% include "components/footer.njk" %}
+		<div>
+			<main class="content">
+				{{ layoutContent | safe }}
+			</main>
+
+			{% include "components/sidebar.njk" %}
+		</div>
+
+		{# {% include "components/footer.njk" %} #}
 
 	</body>
 

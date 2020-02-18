@@ -1,0 +1,81 @@
+:root {
+    --light-grey: #BBC7CC;
+    --grey: #efefef;
+	--white: white;
+   --skyblue: #3b6aa7;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Avenir", "Avenir Next", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+}
+
+a[href],
+a[href]:visited {
+	color: var(--skyblue);
+}
+
+a[href]:not(:hover) {
+	text-decoration: none;
+}
+
+header,
+main,
+footer {
+    padding: 1em;
+}
+
+/*******************/
+
+/* Layout */
+.sidebar {
+    width: 25%;
+    float: left;
+}
+
+.content {
+    width: 75%;
+    float: right;
+}
+
+/* Sidebar */
+
+.sidebar {
+    padding-left: 1em;
+}
+
+.sidebar ul {
+    padding: 0;
+    list-style: none;
+}
+
+.sidebar li a[data-current="current item"] {
+	font-weight: 700;
+	text-decoration: underline;
+}
+
+.sidebar footer {
+    padding: 0;
+}
+
+.sidebar footer p {
+    padding: 0;
+    margin: 0;
+    font-size: 0.8em;
+    color: var(--light-grey);
+}
+
+.sidebar footer p a[href] {
+    font-style: oblique;
+    font-weight: 3000;
+    color: #cccccc;
+}
+
+.sidebar footer p {
+    margin: 0;
+}
