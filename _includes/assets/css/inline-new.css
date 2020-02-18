@@ -126,3 +126,10 @@ header > em {
 .sidebar footer p {
     margin: 0;
 }
+
+a[rel~="tag"],
+a[rel~="tag"]:visited {
+    background-color: var(--light-grey);
+    color: var(--white);
+    padding: 2px;
+}
