@@ -1,0 +1,144 @@
+:root {
+    --light-grey: #BBC7CC;
+    --dark-grey: #9f9f9f;
+    --white: white;
+    --skyblue: #3b6aa7;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Avenir", "Avenir Next", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+}
+
+a[href],
+a[href]:visited {
+	color: var(--skyblue);
+}
+
+a[href]:not(:hover) {
+	text-decoration: none;
+}
+
+header,
+main,
+footer {
+    padding: 1em;
+}
+
+/*******************/
+
+/* Layout */
+.sidebar {
+    width: 25%;
+    float: left;
+}
+
+.content {
+    width: 75%;
+    float: right;
+}
+
+.centered {
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+    max-width: 1000px;
+}
+
+p,
+pre,
+code {
+	line-height: 1.5;
+}
+
+main :first-child,
+main > aside :first-child,
+main > article :first-child {
+	margin-top: 0;
+}
+
+/* header */
+header {
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+    max-width: 1000px;
+}
+
+header > em {
+	display: block;
+	font-size: 2em;
+	margin: .67em 0;
+	font-weight: bold;
+	font-style: normal;
+}
+
+/* Content */
+
+.content {
+    margin-top: 0;
+}
+
+.content nav {
+    border-top: 1px solid var(--light-grey);
+}
+
+.content nav a {
+    float: right;
+    margin-right: 1em;
+}
+
+/* Sidebar */
+
+.sidebar {
+    padding-left: 1em;
+}
+
+.sidebar h3 {
+    margin-bottom: 0;
+}
+
+.sidebar ul {
+    padding: 0;
+    list-style: none;
+    margitn-top: 0;
+}
+
+.sidebar li a[data-current="current item"] {
+	font-weight: 700;
+	text-decoration: underline;
+}
+
+.sidebar footer {
+    padding: 0;
+}
+
+.sidebar footer p {
+    padding: 0;
+    margin: 0;
+    font-size: 0.8em;
+    color: var(--dark-grey);
+}
+
+.sidebar footer p a[href] {
+    font-style: oblique;
+    font-weight: 3000;
+    color: var(--dark-grey);
+}
+
+.sidebar footer p {
+    margin: 0;
+}
+
+a[rel~="tag"],
+a[rel~="tag"]:visited {
+    background-color: var(--light-grey);
+    color: var(--white);
+    padding: 2px;
+}

@@ -1,15 +1,15 @@
 ---
 layout: layouts/contact.njk
-title: Get in touch
+title: Contact me
 section: contact
-date: 2018-01-01
+date: 2020-02-17
 permalink: /contact/index.html
+sidebar: true
 eleventyNavigation:
   key: Contact
-  order: 3
+  order: 2
 ---
-The contact form on this page uses
-[Netlify Forms](https://www.netlify.com/docs/form-handling/) to process
-submissions, and saves them in the connected Netlify account where
-notifications can optionally be configured. Each submission is passed through a
-spam filter and if flagged, will display a CAPTCHA challenge to the user.
+The simplest way to reach me is on Twitter. If you're interested in my guitar playing, explore my youtube channel.
+
+* Twitter - [@gadberger](https://twitter.com/gadberger)
+* Youtube - [Gad Plays Guitar](https://www.youtube.com/channel/UClJ67PyjtH6BWYMpPUpD1ZQ)

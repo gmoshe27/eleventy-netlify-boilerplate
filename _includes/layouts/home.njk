@@ -4,3 +4,8 @@ section: home
 ---
 
 {{ layoutContent | safe }}
+
+{% set top_posts = collections.posts | reverse %}
+{% set post = top_posts | first %}
+
+{% include "components/toppost.njk" %}
