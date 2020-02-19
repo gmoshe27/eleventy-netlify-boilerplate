@@ -3,11 +3,15 @@ const CleanCSS = require("clean-css");
 const UglifyJS = require("uglify-es");
 const htmlmin = require("html-minifier");
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
+const embedYoutube = require("eleventy-plugin-youtube-embed");
 
 module.exports = function(eleventyConfig) {
 
   // Eleventy Navigation https://www.11ty.dev/docs/plugins/navigation/
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
+
+  // Eleventy Youtube Plugin
+  eleventyConfig.addPlugin(embedYoutube);
 
   eleventyConfig.addLayoutAlias("post", "layouts/post.njk");
 
