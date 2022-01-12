@@ -188,6 +188,10 @@ argparse@^1.0.7:
   dependencies:
     sprintf-js "~1.0.2"
 
+argparse@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/argparse/-/argparse-2.0.1.tgz#246f50f3ca78a3240f6c997e8a9bd1eac49e4b38"
+
 arr-diff@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/arr-diff/-/arr-diff-4.0.0.tgz#d6461074febfec71e7e15235761a329a5dc7c520"
@@ -729,6 +733,10 @@ deep-extend@^0.6.0:
   version "0.6.0"
   resolved "https://registry.yarnpkg.com/deep-extend/-/deep-extend-0.6.0.tgz#c4fa7c95404a17a9c3e8ca7e1537312b736330ac"
 
+deepmerge@^4.2.2:
+  version "4.2.2"
+  resolved "https://registry.yarnpkg.com/deepmerge/-/deepmerge-4.2.2.tgz#44d2ea3679b8f4d4ffba33f03d865fc1e7bf4955"
+
 define-property@^0.2.5:
   version "0.2.5"
   resolved "https://registry.yarnpkg.com/define-property/-/define-property-0.2.5.tgz#c35b1ef918ec3c990f9a5bc57be04aacec5c8116"
@@ -819,6 +827,13 @@ ejs@^2.6.2:
   version "2.7.4"
   resolved "https://registry.yarnpkg.com/ejs/-/ejs-2.7.4.tgz#48661287573dcc53e366c7a1ae52c3a120eec9ba"
 
+eleventy-plugin-youtube-embed@^1.2.0:
+  version "1.6.5"
+  resolved "https://registry.yarnpkg.com/eleventy-plugin-youtube-embed/-/eleventy-plugin-youtube-embed-1.6.5.tgz#1cc43337332b3b264495f4d2aa7126d4c2ccfbd9"
+  dependencies:
+    deepmerge "^4.2.2"
+    lite-youtube-embed "^0.2.0"
+
 emitter-mixin@0.0.3:
   version "0.0.3"
   resolved "https://registry.yarnpkg.com/emitter-mixin/-/emitter-mixin-0.0.3.tgz#5948cb286f2e48edc3b251a7cfc1f7883396d65c"
@@ -884,9 +899,9 @@ entities@~1.1.1:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/entities/-/entities-1.1.2.tgz#bdfa735299664dfafd34529ed4f8522a275fea56"
 
-entities@~2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/entities/-/entities-2.0.0.tgz#68d6084cab1b079767540d80e56a39b423e4abf4"
+entities@~2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/entities/-/entities-2.1.0.tgz#992d3129cf7df6870b96c57858c249a120f8b8b5"
 
 errno@^0.1.2:
   version "0.1.7"
@@ -1610,9 +1625,19 @@ linkify-it@^2.0.0:
   dependencies:
     uc.micro "^1.0.1"
 
+linkify-it@^3.0.1:
+  version "3.0.3"
+  resolved "https://registry.yarnpkg.com/linkify-it/-/linkify-it-3.0.3.tgz#a98baf44ce45a550efb4d49c769d07524cc2fa2e"
+  dependencies:
+    uc.micro "^1.0.1"
+
 liquidjs@^6.4.3:
   version "6.4.3"
   resolved "https://registry.yarnpkg.com/liquidjs/-/liquidjs-6.4.3.tgz#c7caf7a3f6c87dc6a22a5a351328cf8f7298c243"
+
+lite-youtube-embed@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/lite-youtube-embed/-/lite-youtube-embed-0.2.0.tgz#db95eab9dd448f02e83de906383350a8033d54fe"
 
 load-json-file@^1.0.0:
   version "1.1.0"
@@ -1678,13 +1703,13 @@ markdown-it-anchor@^5.2.5:
   version "5.2.5"
   resolved "https://registry.yarnpkg.com/markdown-it-anchor/-/markdown-it-anchor-5.2.5.tgz#dbf13cfcdbffd16a510984f1263e1d479a47d27a"
 
-markdown-it@^10.0.0:
-  version "10.0.0"
-  resolved "https://registry.yarnpkg.com/markdown-it/-/markdown-it-10.0.0.tgz#abfc64f141b1722d663402044e43927f1f50a8dc"
+markdown-it@^12.3.2:
+  version "12.3.2"
+  resolved "https://registry.yarnpkg.com/markdown-it/-/markdown-it-12.3.2.tgz#bf92ac92283fe983fe4de8ff8abfb5ad72cd0c90"
   dependencies:
-    argparse "^1.0.7"
-    entities "~2.0.0"
-    linkify-it "^2.0.0"
+    argparse "^2.0.1"
+    entities "~2.1.0"
+    linkify-it "^3.0.1"
     mdurl "^1.0.1"
     uc.micro "^1.0.5"
 
